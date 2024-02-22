@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan 3</title>
+</head>
+<body>
+  <header>
+    <h1>Latihan 3</h1>
+    <nav>
+      <ul>
+        <li><a href="latihan-3-list.html">List Table</a></li>
+        <li><a href="latihan-3-form.html">Form Tambah User</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Form Tambah User</h2>
+    <form action="latihan-3-list.html" method="post">
+      <label for="nama_depan">Nama Depan:</label>
+      <input type="text" id="nama_depan" name="nama_depan" required><br><br>
+
+      <label for="nama_belakang">Nama Belakang:</label>
+      <input type="text" id="nama_belakang" name="nama_belakang" required><br><br>
+
+      <label for="no_hp">No HP:</label>
+      <input type="text" id="no_hp" name="no_hp" required><br><br>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select><br><br>
+
+      <label for="alamat">Alamat:</label><br>
+      <textarea id="alamat" name="alamat" required></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+    <button onclick="window.history.back()">Kembali</button>
+  </main>
+</body>
+</html>
